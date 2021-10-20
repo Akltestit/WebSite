@@ -4,14 +4,26 @@
         <style>
             body {
                 background-color: yellow;
-                padding: 30px;
+                padding: 0px;
+                margin: 0px;
             }
             h1 {
                 color: #111111;
                 font-family: Obrazek;
                 font-size: 13vh;
+                padding: 30px;
                 margin: 0;
                 letter-spacing: -4px;
+            }
+            .stripes {
+                background-image: repeating-linear-gradient(
+                    45deg,
+                    #ffff00,
+                    #ffff00 10px,
+                    #111111 10px,
+                    #111111 20px
+                    );
+                padding-top: 500px;
             }
             @font-face {
                     font-family:"Obrazek";
@@ -21,5 +33,7 @@
     </head>
     <body>
         <h1>Ma a che caxxo ti serve il wifi in una mostra?</h1>
+        <div class="stripes">
+        </div>
     </body>
 </html>
